@@ -8,7 +8,7 @@ O aprendizado por reforço é diferente dos problemas de classificação e regre
 
 O algoritmo usado é o Q-Learning, que aprende uma tabela onde cada combinação de estado e ação recebe um valor estimado, o famoso valor Q, que representa o quão boa é aquela ação naquele estado pensando no longo prazo. A cada passo o agente escolhe uma ação, observa o que acontece e atualiza esse valor com base na recompensa recebida e na melhor expectativa do estado seguinte. Repetindo isso por muitos episódios, a tabela vai convergindo e o agente passa a saber, em cada posição da grade, qual movimento tende a levá-lo mais perto do objetivo.
 
-Um ponto central desse tipo de algoritmo é o equilíbrio entre explorar e aproveitar. No começo o agente precisa explorar bastante, tomando ações aleatórias para conhecer o ambiente, pois se ele só repetisse o que já parece bom cedo demais acabaria preso num caminho ruim. Com o tempo, conforme a tabela de valores fica mais confiável, ele passa a aproveitar mais o conhecimento adquirido e a agir de forma mais direta rumo ao objetivo.
+Um ponto central desse tipo de algoritmo é o equilíbrio entre explorar e aproveitar. No começo o agente precisa explorar bastante, tomando ações aleatórias para conhecer o ambiente, pois se ele só repetisse o que já parece bom cedo demais acabaria preso em um caminho ruim. Com o tempo, conforme a tabela de valores fica mais confiável, ele passa a aproveitar mais o conhecimento adquirido e a agir de forma mais direta rumo ao objetivo.
 
 ## Resultados
 
